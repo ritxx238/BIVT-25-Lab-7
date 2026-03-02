@@ -164,12 +164,8 @@ namespace Lab7.Green
             }
             public void Print()
             {
-                Console.WriteLine("Студент: " + _name + " " + _surname);
-                Console.WriteLine("Оценки: " + _marks[0] + " " + _marks[1] + " " + _marks[2] + " " + _marks[3] + " " + _marks[4]);
-                Console.WriteLine("Средний балл: " + AverageMark);
-                Console.WriteLine();
+                return;
             }
         }
     }
 }
-
